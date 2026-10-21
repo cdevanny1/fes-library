@@ -245,10 +245,10 @@ HIGHLIGHTS
   position: absolute;
   left: 0;
   width: 101vw;
-  height: 12vw;
+  height: min(12vw, 160px;
   z-index: 1;
   background: url("./assets/wave.svg");
-  background-size: cover;
+  background-size: 100%, 100%;
   background-repeat: no-repeat;
 }
 
