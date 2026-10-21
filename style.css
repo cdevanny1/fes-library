@@ -205,8 +205,9 @@ button:active {
   border: none;
 }
 
-.heading__img--wrapper {
+.header__img--wrapper {
   padding: 20px;
+  z-index: 2;
 }
 
 .container {
@@ -268,10 +269,10 @@ HIGHLIGHTS
 
 .section__title {
   width: 100%;
+  z-index: 2;
 }
 
 .highlight {
-  padding: 0 24px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -480,5 +481,11 @@ footer {
 
   .highlight:not(:last-child) {
     margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .container {
+    padding: 80px 0;
   }
 }
